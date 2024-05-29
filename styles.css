@@ -1,0 +1,154 @@
+*{
+    color: white;
+    background-image: url("img1.png");
+    background-size: 100%;
+    text-align: center;
+    
+}
+
+.header{
+    position:absolute;
+    top:3%;
+    left:30%;
+    background: transparent;
+    text-align:center;
+}
+
+.circle{
+    background:black;
+    border-radius: 50%;
+    width:49px;
+    height:49px;
+    position: absolute;
+    top:7vw;
+    left:14.2vw;
+}
+
+#circle2{
+    background:yellow;
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+    position: absolute;
+    top:8vw;
+    left:15.2vw;
+}
+.triangle{
+  background: white;
+  border-bottom: 35px solid #000000;
+  border-left: 20px solid rgba(0, 0, 0, 0);
+  border-right: 21px solid rgba(0, 0, 0, 0);
+  content: "";
+  display: inline-block;
+  height: 0;
+  vertical-align: top;
+  width: 0;
+  transform: rotate(180deg);
+  position: absolute;
+  top:9.5vw;
+  left:14.5vw;
+}
+
+h1{
+    font-family: "Airone Demo";
+    font-size: 8.4vw;
+    font-weight: lighter;
+    display:block;
+    background: transparent;
+
+}
+
+#sub-heading{
+    position:absolute;
+    background: transparent;
+    top:11.7vw;
+    left:37%;
+    font-size: 3.3vw;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    display:block;
+    padding:none;
+    font-weight: lighter;
+}
+.container{
+    border: 5px none white;
+    box-shadow:inset 0 0 85px white;
+    padding: 20px;
+    border-radius: 35px;
+    position:absolute;  
+    top:20vw;
+    left:12vw;
+    bottom:20vw;
+    width:75%;
+    height:47%;
+    opacity:0.5;
+    z-index: index 2;
+}
+
+.description{
+    color:rgb(255, 255, 255);
+    z-index: index 1;
+    position:absolute; 
+    top:20vw;
+    left:1.5vw;
+    bottom:20vw;
+    width:100%;
+    height:45%;
+    background: transparent;
+}
+
+.description h4{
+    background: transparent;
+    font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+    text-shadow: 2px 2px #433a3a;
+    font-stretch: condensed;
+    font-weight: bold;
+    font-size:xx-large;
+    font-size: 2.1vw;
+}
+
+.description h3{
+    background: transparent;
+    text-shadow: 2px 2px #433a3a;
+    font-size:2.24vw;
+    width:100%;
+    font-family: "Futura Md BT Medium";
+    font-weight:lighter;
+}
+
+
+button{
+    opacity:1;
+    position: absolute;
+    top:13vw;
+    left:39vw;
+    border-radius: 50px;
+    border:2px white solid;
+    box-shadow: inset rgb(248, 243, 243) 12px 60px 60px 60px;
+    width:19vw;
+    height:5vw;
+    padding:20px;
+    color:#000000;
+    font-size: 2vw;
+    cursor: pointer;
+    font-weight: bold;
+    
+
+}
+button:hover{
+    box-shadow:inset rgb(174, 172, 188) 12px 60px 60px 60px;
+    font-size:2.3vw;
+}
+
+.location{
+    color: #f0f1e9;
+    background: transparent;
+    border:none; 
+    position:absolute;
+    top:19vw;
+    left:38vw;
+    font-size: 2vw;
+    text-decoration: solid;
+    font-weight:bolder;
+    letter-spacing:3px;
+    text-shadow:2px 2px rgb(64, 52, 52);
+}
